@@ -1,0 +1,180 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+}
+
+table, tbody, tr, td {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 502px;
+	display:table;/*changes the div into a table layout. this now works on all browsers*/
+	height:100%;
+}
+
+#container{
+	display:table-cell;/*displays the div as a table cell, thus making it a part of the table structure. */
+	vertical-align:middle;/*Vertically aligns the now div turned cell into the div turned table*/
+	position:relative;/*it is necessary to use the position tag to make the table-cell code work*/
+	text-align:center;/*this can be changed or removed as per your wish and website layout.*/
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+#header {
+	text-align: left;
+}
+
+#header h1 {
+	padding-bottom: 0px;
+}
+
+#header h1 span {
+	font-size: 20px;
+}
+
+#header p {
+	margin-top: 0px;
+	color: #ADADAD;
+}
+
+
+
+
+
+
+#tweetarea {
+	text-align: center;
+	min-height: 210px;
+	padding-bottom: 15px;
+}
+
+
+
+h1 {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+
+.rightSideBoxes {
+	/*-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 50px;
+	border: #ddd 1px solid!important;
+	border-top-color: #eee!important;
+	border-bottom-color: #bbb!important;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.15)!important;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.15)!important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15)!important;
+	padding: 10px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.rightSideBoxes h4 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	float: left;*/
+}
+
+#rightStuff {
+	padding: 0 10px;
+	width: 180px;
+	height: 50px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#rightStuff p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: white;
+}
+
+
+
+#rightStuff:hover {
+	text-decoration: underline;
+}
+
+#linker {
+	opacity: .5;
+}
+
+#linker:hover {
+	opacity: 1;
+}
+
+#linker a {
+	color: black;
+}
+
+#holder a {
+	color: #ADADAD;
+	text-decoration: none;
+	float: right;
+	font-size: 10px;
+}
+
+#holder a:hover {
+	text-decoration: underline;
+}
+
+#holder a:visited {
+	color: #ADADAD;
+}
+
+#holder {
+	width: 100%;
+	min-height: 30px;
+}
+
+#about a {
+	color: #ADADAD;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+}
+
+.topBar {
+	width: 100%;
+	height: 54px;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	bottom: 0px;
+	z-index: 1000;
+}
