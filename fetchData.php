@@ -74,7 +74,7 @@ while($url == "" || is_null($twitterId))
 	$DEVELOPER_KEY = 'AIzaSyCd2GZ2L4eqJiyTJA99dhoJo8XGfw2PxBU';
 	
 	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, "https://www.googleapis.com/youtube/v3/search?part=id%2Csnippet&q=".$searchString."&max-results=1&type=video&videoCategoryId=music&key=".$DEVELOPER_KEY);
+	curl_setopt($ch, CURLOPT_URL, "https://www.googleapis.com/youtube/v3/search?part=id%2Csnippet&q=".$searchString."&max-results=1&type=video&videoCategoryId=Music&key=".$DEVELOPER_KEY);
 	curl_setopt($ch, CURLOPT_HEADER, 0);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);

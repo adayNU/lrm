@@ -31,6 +31,10 @@
 
 <div id="upNext" class="topBar">
 
+	<a href="javascript:emptyIt()" style="float: right;">
+		<img src="images/icon_x.png" width='20'>
+	</a>
+
 	<a href="javascript:nextSong()" style="float: right;">
 	<div id="linker">
 	<table>
@@ -81,6 +85,7 @@
 
 		<div id="player"></div>
 		
+		<div id="bottomSpacer">&nbsp;</div>
 	</div>
 </div>
 
