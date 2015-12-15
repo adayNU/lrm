@@ -16,10 +16,11 @@ while($url == "" || is_null($twitterId))
 {
 
 	$settings = array(
-		'oauth_access_token' => "891657050-gW4PbXZyIjtOClmDPVw09TwZd6G9NMKzJfL9JSAX",
-		'oauth_access_token_secret' => "cGxNas0vS4ICt83cNQXvQRPh912KuN25tlrfSb3Tlg",
-		'consumer_key' => "BQSa2jmCzqMfX2Fjdcyw",
-		'consumer_secret' => "AgqcEQUS0Cpsk8cC1NPJC6b7My34Pnq1iBbJ9lHUPA"
+		//tokens and such redacted
+		'oauth_access_token' => "",
+		'oauth_access_token_secret' => "",
+		'consumer_key' => "",
+		'consumer_secret' => ""
 	);
 
 	$url = 'https://api.twitter.com/1.1/search/tweets.json';
